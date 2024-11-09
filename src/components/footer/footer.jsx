@@ -6,8 +6,8 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer>
-    Designed and developed by
-    <span> Ali Hassan </span>© 2024.
+   ❤ Designed and developed by
+    <span> Shehab Eldin </span>© 2025.
   </footer>
   );
 }

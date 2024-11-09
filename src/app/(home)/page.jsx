@@ -4,7 +4,6 @@ import Footer from "components/footer/footer";
 import Products from "./products";
 
 
-
 export default function Home() {
   return (
     <>
