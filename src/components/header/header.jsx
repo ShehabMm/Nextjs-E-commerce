@@ -41,7 +41,7 @@ const Header = () => {
           $0.00
           <span className="products-number">2</span>
         </Link>
-        <a className="sign-in" href="./pages/signin.html">
+        <Link className="sign-in" href="/signin">
           <FontAwesomeIcon
             className="fa-solid fa-right-to-bracket"
             style={{
@@ -50,8 +50,8 @@ const Header = () => {
             icon={faRightToBracket}
           />
           Sign in
-        </a>
-        <a className="register" href="./pages/register.html">
+        </Link>
+        <Link className="register" href="/register">
           <FontAwesomeIcon
             className="fa-solid fa-user-plus"
             style={{
@@ -60,7 +60,7 @@ const Header = () => {
             icon={faUserPlus}
           />
           Register
-        </a>
+        </Link>
       </nav>
     </header>
   );
