@@ -1,8 +1,7 @@
-import Header from "components/header/header";
 import "./home.css";
-import Footer from "components/footer/footer";
 import Products from "./products";
-
+import Header from '../../components/header/header'
+import Footer from '../../components/footer/footer'
 
 export default function Home() {
   return (
@@ -25,7 +24,7 @@ export default function Home() {
       <main>
         <h1 className="recommended">
           <i className="fa-solid fa-check" />
-          Recommended for you
+        ✔ Recommended for you
         </h1>
 <Products/>
 
