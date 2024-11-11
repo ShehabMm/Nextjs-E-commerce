@@ -2,12 +2,13 @@ import "./home.css";
 import Products from "./products";
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
-
 export default function Home() {
+
   return (
+
     <>
       <div className="top-img">
-        <Header />
+        <Header    />
         <section className="content">
           <p className="lifestyle">Lifestyle collection</p>
           <p className="men">MEN</p>
@@ -24,9 +25,9 @@ export default function Home() {
       <main>
         <h1 className="recommended">
           <i className="fa-solid fa-check" />
-        ✔ Recommended for you
+          ✔ Recommended for you
         </h1>
-<Products/>
+        <Products  />
 
       </main>
 

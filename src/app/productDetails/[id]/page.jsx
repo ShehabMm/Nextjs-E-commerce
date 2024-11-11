@@ -58,7 +58,10 @@ const data = await getData()
         <h3>{data.title}</h3>
         <p>{data.description.slice(0,200)}</p>
         <span>${data.price}</span>
-        <button className={styles.btn}>🛒 Add to Cart</button>
+        <button onClick={()=>{
+
+          setProNum()
+        }}    className={styles.btn}>🛒 Add to Cart</button>
           </div>
         
   )
